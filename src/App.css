@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('public/trump twitter.webp');
+    background-size: cover;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: #1ea9ec;
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+
+.quote-generator{
+
+    text-align: center;
+}
+
+.quote{
+    margin-top: 5px;
+    width: 300px;
+    text-align: center;
+}
+
+.quote-button{
+    display: flex;
+    margin: 0 auto;
+}
+.button-generation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.poo svg{
+    fill: goldenrod;
+    width: 20px;
+    height: auto;
+    text-align: center;
+}
+
+.poo svg:hover{
+    fill: brown;
+}
